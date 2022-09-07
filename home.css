@@ -1,0 +1,325 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	box-sizing: border-box;
+	background-image: url(star3.jpg);
+	background-size: cover;
+}
+
+.navbar{
+	text-transform: uppercase;
+	font-size: 25;
+	font-weight: bolder;
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+
+.home{
+
+	margin-left: 5%;
+	margin-top: 20px;
+	display: flex;
+}
+
+.vids{
+}
+
+.behold{
+	font-size: 50px;
+	font-weight: bolder;
+	font-family: 'Helvetica';
+	margin-top: 45%;
+	margin-left: 85%;
+	color: #fff;
+}
+
+.name{
+	background: transparent;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bolder;
+	color: #BDE610;
+}
+
+.name span{
+	background: transparent;
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: bolder;
+	color: #0F6BF5;
+}
+
+.logo{
+	background: transparent;
+	margin-left: 5%;
+	width: 5%;
+	cursor: pointer;
+}
+
+nav{
+	background: transparent;
+	flex: 1;
+	text-align: right;
+}
+
+nav ul{
+	background: transparent;
+	margin-right: 55px;
+}
+
+nav ul li{
+	background: transparent;
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+
+nav ul li a{
+	background: transparent;
+	text-decoration: none;
+	color: #000;
+	font-size: 13px;
+}
+
+nav ul li a .active{
+	background: #fff;
+}
+
+nav ul li a:hover{
+	color: #fff;
+}
+
+.row{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.spot{
+	width: 80;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.spot p{
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.spot .row{
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.his-col{
+	flex-basis: 30%;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	position: relative;
+	overflow: hidden;
+	transition: transform 0.5s;
+}
+
+.his-col:hover{
+	transform: translateY(-10px);
+	cursor: pointer;
+}
+
+.his-col img{
+	width: 100%;
+	height: 100%;}
+
+.his-col .layer{
+	background: transparent;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0%;
+	transition: 0.5s;
+}
+
+.his-col .layer:hover{
+	opacity: 1;
+}
+
+.his-col .layer h2{
+	width: 100%;
+	font-weight: 500;
+	color: #fff;
+	font-size: 26px;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+}
+
+.his-col .layer h2:hover{
+	bottom: 49%;
+	opacity: 1;
+}
+
+.his-col .layer h5{
+	margin-top: 10px;
+	color: #fff;
+}
+
+mark { 
+  background-color: #fff;
+  color: black;
+}
+
+.offer{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+h1{
+	font-family: "Garamond";
+	font-size: 36px;
+	font-weight: 600;
+}
+
+.offer .off{
+	color: #000;
+	font-family: "Garamond";
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+
+.offer p{
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.offer-col{
+	flex-basis: 31%;
+	background-color: #fff3f3;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.offer-col:hover{
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+h3{
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+@media(max-width: 700px){
+	.row{
+		flex-direction: column;
+	}
+}
+
+.dom{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.btn-col{
+	flex-basis: 31%;
+	background: #fff;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 15px 8px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+
+.button:hover{
+	cursor: pointer;
+	color: #FF5B5B;
+}
+
+.btn-col button{
+	cursor: pointer;
+}
+
+.btn-col button: hover{
+	cursor: pointer;
+}
+
+.footer{
+	text-align: center;
+	font-family: 'Segoe UI';
+	font-weight: 400;
+	background-color: #303841;
+	padding: 20px 0;
+}
+
+.social-links a{
+	text-align: center;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	transition: .4s;
+}
+
+.social-links a i{
+	color: #aaa;
+	text-align: center;
+}
+
+.footer ul{
+	text-align: center;
+	margin-top: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 15px;
+	line-height: 1.6;
+	margin-bottom: 0;
+}
+
+.footer ul a{
+	color: #aaa;
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.footer ul li{
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.footer ul li a:hover{
+	opacity: 1;
+}
+
+.footer .copyright{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 13px;
+	color: #aaa;
+}

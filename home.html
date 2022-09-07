@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Tourist Information Center</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="home.css">
+
+	
+</head>
+<body onload="addHandler()">
+
+	<!---- Header Section Starts ---->
+
+	<header>
+        <div class="container">
+    		<div class="navbar">
+    			<img src="star1.png" class="logo">
+                <a href="#" class="name"><span>1</span>bataantravel</a>
+                <nav>
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="information.html">INFORMATION</a></li>
+                        <li><a href="gallery.html">GALLERY</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                    </ul>
+                </nav>
+    		</div>
+
+            
+            
+
+        </div>
+	</header>
+
+	<!---- Header Section Ends ---->
+
+	<!---- Spot Section Starts ---->
+
+	<section class="spot">
+        <h1>BATAAN</h1>
+        <p>Bataan was established in 1754 by Governor General Pedro Manuel Arandia out of territories belonging to Pampanga and the corregimiento of Mariveles, which at the time, included Maragondon in Cavite across the bay. The province had more than its share of significant historical events. In 1647, Dutch Naval Forces attempting to invade the country perpetrated the Abucay massacre in one of its towns. In the late 1700s, the dreaded Chinese private Limahong used Lusong Point on the western sides as the landing place to launch his conquest of Luzon, which revolted against Spanish rule. It was during World War II, however that Bataan attained prominence that would find its placce in the annals of world history. Under heavy aircraft and artillery shelling from the invading Japanese forces, the beleaguered Filipino-American troops valiantly defended this last bastion until the "Fall of Bataan" on April 9, 1942.</p>
+
+        <div class="row">
+            <div class="his-col">
+                <img src="balagtas.jpg">
+                <div class="layer">
+                    <h5><mark>BALAGTAS MONUMENT</mark></h5>
+                </div>
+            </div>
+            <div class="his-col">
+                <img src="tower.jpg">
+                <div class="layer">
+                    <h5><mark>FRIENDSHIP TOWER</mark></h5>
+                </div>
+            </div>
+            <div class="his-col">
+                <img src="tomas.jpg">
+                <div class="layer">
+                    <h5><mark>LIMBAGANG PINPIN MUSEUM</mark></h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---- Spot Section Ends ---->
+
+
+    <!---- About Us Section Starts ---->
+
+    <section class="offer">
+        <h1>What We Offer</h1>
+        <p id="p" class="off">"We offer a location with information on the area's attractions and history of Bataan."</p>
+
+        <div class="row">
+            <div id="div1" class="offer-col" >
+                <h3>History</h3>
+                <i class="fa-solid fa-monument"></i>
+                <p id="p1">Bataan is known for its historical places thanks to its great role in world history. The Battle of Bataan is famous as one of the last stands of American and Filipino soldiers before they were overwhelmed by the Japanese soldiers.</p>
+            </div>
+            <div id="div2" class="offer-col" >
+                <h3>Nature</h3>
+                <i class="fa-solid fa-umbrella-beach"></i>
+                <p id="p2">Bataan is a rising eco-tourism because of various tourist attractions, including white sand beaches, verdant mountain trails, majestic waterfalls, turtle haven, and breathtaking sunsets.</p>
+            </div>
+            <div id="div3" class="offer-col" >
+                <h3>Church</h3>
+                <i class="fa-solid fa-place-of-worship"></i>
+                <p id="p3">Spending a Holy Week and Visita Iglesia in Bataan offers a promising and memorable experience as this place holds significant marks in Philippine history. This mountainous province showcases rich culture and history, as well as numerous exquisite churches that date back during the Spanish era.</p>
+            </div>
+        </div>
+    </section>
+
+    <!---- About Us Section Ends ---->
+
+
+    <!---- DOM Section Starts ---->
+
+    <section class="dom">
+        
+        <div class="row">
+            <div class="btn-col">
+                <h3>Fonts</h3>
+                <button type="button" onclick="myFunction1()">Garamond</button>
+                <button type="button" onclick="myFunction2()">Georgia</button>
+                <button type="button" onclick="myFunction3()">Arial</button>
+            </div>
+            <div class="btn-col">
+                <h3>Font Size</h3>
+                <button type="button" onclick="myFunction4()">Small</button>
+                <button type="button" onclick="myFunction5()">Medium</button>
+                <button type="button" onclick="myFunction6()">Large</button>
+            </div>
+            <div class="btn-col">  
+                <h3>Font Color</h3>
+                <button type="button" onclick="myFunction7()">Black</button>
+                <button type="button" onclick="myFunction8()">Red</button>
+                <button type="button" onclick="myFunction9()">Gray</button>
+            </div>
+            <div class="btn-col">
+                <h3>Font Weight</h3>
+                <button type="button" onclick="myFunction10()">Normal</button>
+                <button type="button" onclick="myFunction11()">Bold</button>
+                <button type="button" onclick="myFunction12()">Bolder</button>
+            </div>
+    </section>
+
+    <!---- DOM Section Ends ---->
+
+
+    <!---- Footer Section Starts ---->
+
+    <section class="footer">
+        <div class="social-links">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+        
+        <ul class="list">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="information.html">Information</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+        <p class="copyright">
+            Copyright &copy; 2022 1Bataantravel, All Rights Reserved
+        </p>
+    </section>
+
+    <!---- Footer Section Ends ---->
+
+
+    <script src="home.js"></script>
+
+</body>
+</html>
